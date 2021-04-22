@@ -684,16 +684,6 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
-		.image.fit {
-			display: block;
-			margin: 0 0 2rem 0;
-			width: 100%;
-		}
-
-			.image.fit img {
-				width: 100%;
-			}
-
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
@@ -707,7 +697,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.image.main {
-				margin: 2rem 0;
+				margin: 2rem 2rem 2rem 3rem;
+				width: 80%;
 			}
 
 		}
@@ -718,7 +709,23 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 
+			.image.mysql {
+				width:10%;
+			}
+
 		}
+
+/* Projects */
+
+.the-images {
+	display: block;
+    border-radius: 40px;
+    margin: auto;
+    margin-bottom: 8%;
+    width: 60%;
+    opacity: 1;
+    height: 180px;
+}
 
 /* List */
 
@@ -1139,9 +1146,8 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/landscape.jpg");
+			background-size: cover;
 			background-position: center,
  center;
 			background-repeat: no-repeat,
@@ -1500,6 +1506,8 @@ input, select, textarea {
 				}
 
 		}
+
+
 
 /* Main */
 
