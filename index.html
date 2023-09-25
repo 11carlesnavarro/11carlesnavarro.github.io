@@ -2,45 +2,126 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Carles Navarro</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: white;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            text-align: center;
-        }
-        .links a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #333;
-        }
-        .links a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <!-- Link to stylesheets, favicon, and other head elements can be added here -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Welcome to Carles Navarro's Website</h1>
-        <p>Your background and personal introduction go here.</p>
-        <div class="links">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <!-- Add more links as needed -->
+
+    <!-- idea: have a javascript animated loss function converging in the header? :p -->
+    <div id="dhead" class="container">
+        <div class="row">
+          <div id="dpic">
+            <img src="images/myself.jpeg" class="ppic" />
+          </div>
+          <div id="ddesc">
+            <h1>Carles Navarro</h1>
+            <h2>Learning to make Neural nets learn chemistry. 🧠🤖</h2>
+            <div id="dico">
+                <li><a href="https://twitter.com/11carlesnavarro"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.github.com/11carlesnavarro"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/carles-navarro-486691173/"><i class="fab fa-linkedin"></i></a></li>
+            </div>
+          </div>
         </div>
+      </div>
+  
+      <hr>
+      
+    <!-- Bio Section -->
+    <div class="container">
+    <section id="bio">
+        <h2>Bio</h2>
+        <p>In the cosmic realms of computation, Carles Navarro was renowned as the maestro of deep neural networks. Trained in the arcane arts of chemistry, he ventured into the labyrinth of code, aspiring to become a software architect. With every epoch in his training cycle, he drew inspiration from the alchemical fusion of science and technology. As he delved deeper into the mysteries of physics and the intricacies of software engineering, the world watched in awe. Journey with him as he bridges the chasm between molecules and matrices, in a universe where science, software, and endless curiosity intertwine.</p>
+    </section>
     </div>
+    <!-- History Section -->
+    <div id="history" class="container">
+        <h2>History</h2>
+    
+        <div class="entry row">
+          <div class="timespan">
+            2022 - 
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <a href="https://www.acellera.com/" target="_blank">
+                <img src="images/acellera.jpeg"/>
+            </a>
+          </div>
+          <div class="desc">
+            <strong>Industrial PhD:</strong> Industrial PhD at Acellera Labs. Using Generative AI for drug discovery.
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2020 - 2022
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+                <a href="https://www.upf.edu/" target="_blank">
+                    <img src="images/upf.png"/>
+                </a>
+          </div>
+          <div class="desc">
+            <strong>Msc Bioinformatics for the Health Sciences:</strong> Worked at <a href="https://www.compscience.org/"> Computational Science Laboratory</a> 
+                with Gianni de Fabritiis. Differentiable Molecular Simulations for protein folding. Developed a new methodology for training a Graph Neural
+                Network with simulations to learn the coarse-grained force field parameters.
+          </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+              2019 - 
+            </div>
+            <div class="ico">
+              <div class="entry-dot"></div>
+                  <a href="https://www.uned.es/" target="_blank">
+                      <img src="images/uned.png"/>
+                  </a>
+            </div>
+            <div class="desc">
+              <strong>Bsc Physics:</strong> Studying physics for fun.
+            </div>
+          </div>
+
+
+        <div class="entry row">
+            <div class="timespan">
+              2015 - 2019
+            </div>
+            <div class="ico">
+              <div class="entry-dot"></div>
+                  <a href="https://www.urv.cat/" target="_blank">
+                      <img src="images/urv.png"/>
+                  </a>
+            </div>
+            <div class="desc">
+              <strong>Bsc Chemistry:</strong> Discovered that I liked science but not wet labs. So now I try to do science with computers.
+            </div>
+          </div>
+      </div>
+
+    <!-- Publications Section -->
+    <div class="container">
+        <h2>Publications</h2>
+        <div class="pub">
+            <div class="pub-title"><a href="https://arxiv.org/abs/2306.11375">Top-down machine learning of coarse-grained protein force-fields</a></div>
+            <div class="pub-venue">arxiv preprint 2023</div>
+            <div class="pub-authors">Carles Navarro, Maciej Majewski, Gianni de Fabritiis</div>
+        </div>
+    </section>
+
+    <!-- Optionally, you can add a footer here for any additional info or links -->
+    <footer>
+        <p>© 2023 Carles Navarro's Website. None rights reserved.</p>
+    </footer>
+
 </body>
 
 </html>
